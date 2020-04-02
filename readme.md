@@ -5,20 +5,20 @@ A  modified  version of the popular arcade game, Space Invaders, with added
 twists and features.
 
 
-</br>
+<br/>
 ## Contributers
 
 <pre>
 1) Name	: Chong Zhen Yuen 
-&nbsp   UID		: 3035662728
-&nbsp   Study	: Year 1 Engineering
-</br>
+&nbsp  UID		: 3035662728
+&nbsp  Study	: Year 1 Engineering
+<br/>
 2) Name	: Loh Jian Wei
-&nbsp   UID		:
-&nbsp   Study	: Year 1 Engineering
+&nbsp  UID		:
+&nbsp  Study	: Year 1 Engineering
 </pre>
 
-</br>
+<br/>
 ## Game Description
 
 Space  Invaders  2.0  is a single player game, whereby the player will take
@@ -28,7 +28,7 @@ and  must stop the invading enemy ships from reaching the bottom row. Enemy
 ships are able to fire projectiles at random, and the player must avoid all
 projectiles.  The  player  is only given 3 lives to clear as many stages as
 he/she can. 
-</br> 
+<br/> 
 As  the  player  progresses through the game, each stage gets progressively
 harder  by  the increasing number of enemy ships. More advance weaponry and
 loot  boxes  can  be  obtainable  by  the  player  in the later stages. The 
@@ -37,7 +37,7 @@ of  stages  cleared.  The  in-game  leaderboard will display the top 5 high
 scores.
 
 
-</br>
+<br/>
 ## Features and Code Structure
 
 <pre>
@@ -83,5 +83,5 @@ scores.
 	  the game.
 </pre>
 
-</br>
+<br/>
 *Last modified : April 2, 2020*

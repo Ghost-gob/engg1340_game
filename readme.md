@@ -1,47 +1,3 @@
-Last modified : Chong Zhen Yuen, 2/4/2020
-
-
-
-# Space Invaders 2.0
-
-<pre>
-A  modified  version of the popular arcade game, Space Invaders, with added
-twists and features.
-</pre>
-
-
-## Contributers
-
-<pre>
-1)	Name	: Chong Zhen Yuen 
-	&nbsp  UID	: 3035662728
-	&nbsp  Study	: Year 1 Engineering
-	<br>
-2)	Name	: Loh Jian Wei
-	&nbsp  UID	:
-	&nbsp  Study	: Year 1 Engineering
-</pre>
-
-
-## Game Description
-
-Space  Invaders  2.0  is a single player game, whereby the player will take
-control  of  a spaceship and shoot down invading enemy ships using a myriad
-of  weapons.  The spaceship moves horizontally at the bottom of the screen,
-and  must stop the invading enemy ships from reaching the bottom row. Enemy
-ships are able to fire projectiles at random, and the player must avoid all
-projectiles.  The  player  is only given 3 lives to clear as many stages as
-he/she can.  
-
-As  the  player  progresses through the game, each stage gets progressively  
-harder  by  the increasing number of enemy ships. More advance weaponry and  
-loot  boxes  can  be  obtainable  by  the  player  in the later stages. The 
-player's  performance  will be evaluated based on the time spent and number 
-of  stages  cleared.  The  in-game  leaderboard will display the top 5 high 
-scores.
-
-
-
 
 # Space Invaders 2.0
 
@@ -49,22 +5,21 @@ A  modified  version of the popular arcade game, Space Invaders, with added
 twists and features.
 
 
-<br>
+</br>
 ## Contributers
 
 <pre>
-1)	Name	: Chong Zhen Yuen 
+1) Name	: Chong Zhen Yuen 
 &nbsp   UID		: 3035662728
 &nbsp   Study	: Year 1 Engineering
-	<br>
-2)	Name	: Loh Jian Wei
+</br>
+2) Name	: Loh Jian Wei
 &nbsp   UID		:
 &nbsp   Study	: Year 1 Engineering
 </pre>
 
-<br>
+</br>
 ## Game Description
-
 
 Space  Invaders  2.0  is a single player game, whereby the player will take
 control  of  a spaceship and shoot down invading enemy ships using a myriad
@@ -72,8 +27,8 @@ of  weapons.  The spaceship moves horizontally at the bottom of the screen,
 and  must stop the invading enemy ships from reaching the bottom row. Enemy
 ships are able to fire projectiles at random, and the player must avoid all
 projectiles.  The  player  is only given 3 lives to clear as many stages as
-he/she can. <br> 
-
+he/she can. 
+</br> 
 As  the  player  progresses through the game, each stage gets progressively
 harder  by  the increasing number of enemy ships. More advance weaponry and
 loot  boxes  can  be  obtainable  by  the  player  in the later stages. The 
@@ -82,7 +37,7 @@ of  stages  cleared.  The  in-game  leaderboard will display the top 5 high
 scores.
 
 
-<br>
+</br>
 ## Features and Code Structure
 
 <pre>
@@ -127,9 +82,6 @@ scores.
 	  unintended  modification  or errors which may occur when updating
 	  the game.
 </pre>
-<br>
 
+</br>
 *Last modified : April 2, 2020*
-
-
-

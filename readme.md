@@ -59,13 +59,13 @@ can be executed.
 ```
 1)	Galaxy Reaper
 &nbsp	Special Ability: Double Damage until end of stage.
-<br  />
 2)	Galaxy Tanker
 &nbsp	Special Ability: Summons a sheild barrier that absorbs a projectile.
 3)	Galaxy Pirates
 &nbsp	Special Ability: Doubles the coins earned from each enemy killed.
 ```
 <br  />
+
 ### Weaponry
 
 Players can upgrade to more powerful weapons by buying them with coins or from
@@ -73,15 +73,15 @@ loot boxes. Below are the list of weapons in-game.
 <br  />
 ```
 1)	Single Barrel Machine Gun
-&nbsp	- shoots a bullet at a time. 
+	- shoots a bullet at a time. 
 2)	Rapid Machine Gun
-&nbsp	- upgraded version of Single Barrel Machine Gun. Higher fire rate.
+	- upgraded version of Single Barrel Machine Gun. Higher fire rate.
 3)	Double Barrel Machine Gun
-&nbsp	- shoots two bullets at a time.
+	- shoots two bullets at a time.
 4)	Plasma Gun
-&nbsp	- shoots an energy pulse that can cause splash damage.
+	- shoots an energy pulse that can cause splash damage.
 5)	Laser Gun
-&nbsp	-continuous emission of laser beam that can damages the enemies.
+	-continuous emission of laser beam that can damages the enemies.
 ```
 
 ## Features and Code Structure

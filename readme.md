@@ -38,8 +38,8 @@ loot  boxes  can  be  obtainable  by  the  player  in the later stages. The
 player's  performance  will be evaluated based on the time spent and number 
 of  stages  cleared.  The  in-game  leaderboard will display the top 5 high 
 scores.
-<br  />
-<br  />
+<br/>
+<br/>
 When the player progresses from one stage to the next stage, the player has
 to nagivate the  spaceship  through a group of asteriods by dodging them to
 prevent crashing.
@@ -55,31 +55,37 @@ special ability.  There will be a  charging bar to track the charging status
 for the special ability.  When the bar is fully charged, the special ability
 can be executed. 
 
-<br />
-```
+<br/>
+<pre>
 1)	Galaxy Reaper
 &nbsp	Special Ability: Double Damage until end of stage.
+<br/>
 2)	Galaxy Tanker
 &nbsp	Special Ability: Summons a sheild barrier that absorbs a projectile.
+<br/>
 3)	Galaxy Pirates
 &nbsp	Special Ability: Doubles the coins earned from each enemy killed.
-```
-<br  />
+<pre>
+<br/>
 
 ### Weaponry
 
 Players can upgrade to more powerful weapons by buying them with coins or from
 loot boxes. Below are the list of weapons in-game.
-<br  />
+<br/>
 ```
 1)	Single Barrel Machine Gun
 	- shoots a bullet at a time. 
+<br/>
 2)	Rapid Machine Gun
 	- upgraded version of Single Barrel Machine Gun. Higher fire rate.
+<br/>
 3)	Double Barrel Machine Gun
 	- shoots two bullets at a time.
+<br/>
 4)	Plasma Gun
 	- shoots an energy pulse that can cause splash damage.
+<br/>
 5)	Laser Gun
 	-continuous emission of laser beam that can damages the enemies.
 ```

@@ -65,7 +65,7 @@ can be executed.
 <br/>
 3)	Galaxy Pirates
 &nbsp	Special Ability: Doubles the coins earned from each enemy killed.
-<pre>
+</pre>
 <br/>
 
 ### Weaponry
@@ -73,22 +73,22 @@ can be executed.
 Players can upgrade to more powerful weapons by buying them with coins or from
 loot boxes. Below are the list of weapons in-game.
 <br/>
-```
+<pre>
 1)	Single Barrel Machine Gun
-	- shoots a bullet at a time. 
+&nbsp	- shoots a bullet at a time. 
 <br/>
 2)	Rapid Machine Gun
-	- upgraded version of Single Barrel Machine Gun. Higher fire rate.
+&nbsp	- upgraded version of Single Barrel Machine Gun. Higher fire rate.
 <br/>
 3)	Double Barrel Machine Gun
-	- shoots two bullets at a time.
+&nbsp	- shoots two bullets at a time.
 <br/>
 4)	Plasma Gun
-	- shoots an energy pulse that can cause splash damage.
+&nbsp	- shoots an energy pulse that can cause splash damage.
 <br/>
 5)	Laser Gun
-	-continuous emission of laser beam that can damages the enemies.
-```
+&nbsp	-continuous emission of laser beam that can damages the enemies.
+</pre>
 
 ## Features and Code Structure
 

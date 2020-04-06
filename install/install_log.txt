@@ -1,5 +1,0 @@
-g++ -pedantic-errors -lpthread -std=c++11 -c ../codes/main.cpp
-g++ -pedantic-errors -lpthread -std=c++11 -c ../codes/functions/functions.cpp
-g++ -pedantic-errors -lpthread -std=c++11 -c ../codes/spaceship/spaceship.cpp
-g++ -pedantic-errors -lpthread -std=c++11 -c ../codes/enemy/enemy.cpp
-g++ -pedantic-errors -lpthread -std=c++11 main.o functions.o spaceship.o enemy.o -o si_2

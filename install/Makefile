@@ -1,4 +1,4 @@
-FLAGS = -pedantic-errors -lpthread -std=c++11
+FLAGS = -pedantic-errors -lpthread -pthread -std=c++11
 ENEMY = ../codes/enemy/*
 SPACESHIP = ../codes/spaceship/*
 FUNCTIONS = ../codes/functions/*

@@ -115,7 +115,8 @@ loot boxes. Below are the list of weapons in-game.
 	  dynamic  arrays  are used to store all enemy ships in every stage
 	  to  reduce  memory  usage. As the player shoots down enemy ships,
 	  the  number  of  enemy  ships  decreases, so does the size of the
-	  array.
+	  array. Queue  structure is  used to store the  information of the
+	  bullets fired, such as the location.
 </pre>
 
 <pre>

@@ -1,6 +1,4 @@
 #include <iostream>
-#include <termios.h>
-#include <curses.h>
 #include "functions.h"
 using namespace std;
 
@@ -33,12 +31,14 @@ void display(char **frame, int height, int width)
         cout << "-";
     }
     cout << endl;
+    
+    // PRINT HERE
 }
 
 
-void get_player_input(char *input)
+void get_player_input(char *input, int *updated_map)
 {
-    while(getc(*input))
+    while(cin >> *input)
     {
         if (*input == 'q')
         {

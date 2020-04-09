@@ -3,7 +3,7 @@
 
 struct player
 {
-  spaceship ship;
+  Spaceship ship;
   int current_lives;
   int current_stage;
   int time_spent;

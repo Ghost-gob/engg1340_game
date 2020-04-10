@@ -4,8 +4,8 @@
 A  modified  version of the popular arcade game, Space Invaders, with added
 twists and features.
 
-Space  Invaders (Japanese: スペースインベーダー, Hepburn: Supēsu Inbēdā) is a 
-1978 arcade game created by Tomohiro Nishikado.
+Space Invaders (Japanese: スペースインベーダー, Hepburn: Supēsu Inbēdā) 
+is a 1978 arcade game created by Tomohiro Nishikado.
 <br/>
 <br/>
 
@@ -113,11 +113,11 @@ loot boxes. Below are the list of weapons in-game.
 
 <br/>
 
-*Last modified : *
+*Last modified : Zhen Yuen*
 <br/>
 
 *Date: April 11, 2020*
 <br/>
 
-*Time: 0050 HKT
+*Time: 0050 HKT*
 <br/>

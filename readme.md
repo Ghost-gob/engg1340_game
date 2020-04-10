@@ -109,7 +109,6 @@ loot boxes. Below are the list of weapons in-game.
 
 <br/>
 
-
 *Last modified : *
 *Date: April 11, 2020*
 *Time: 0050 HKT

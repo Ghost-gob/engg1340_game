@@ -21,6 +21,7 @@ twists and features.
 
 <br/>
 
+
 ## Game Description
 
 Space  Invaders  2.0  is a single player game, whereby the player will take
@@ -40,6 +41,7 @@ of  stages  cleared.  The  in-game  leaderboard will display the top 5 high
 scores.
 <br/>
 
+
 ## In-game Features
 
 ### Weaponry
@@ -57,6 +59,7 @@ loot boxes. Below are the list of weapons in-game.
 3)	Laser Gun
 &nbsp	- Fires a laser which destroys all enemies in a single line.
 </pre>
+
 
 ## Features and Code Structure
 
@@ -105,6 +108,7 @@ loot boxes. Below are the list of weapons in-game.
 </pre>
 
 <br/>
+
 
 *Last modified : *
 *Date: April 11, 2020*

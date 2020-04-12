@@ -4,7 +4,9 @@
 A  modified  version of the popular arcade game, Space Invaders, with added
 twists and features.
 
-
+Space Invaders (Japanese: スペースインベーダー, Hepburn: Supēsu Inbēdā) 
+is a 1978 arcade game created by Tomohiro Nishikado (Wikipedia, 2020).
+<br/>
 <br/>
 
 ## Contributers
@@ -19,6 +21,7 @@ twists and features.
 &nbsp 	Study	: Year 1 Engineering
 </pre>
 
+<br/>
 <br/>
 
 ## Game Description
@@ -39,34 +42,10 @@ player's  performance  will be evaluated based on the time spent and number
 of  stages  cleared.  The  in-game  leaderboard will display the top 5 high 
 scores.
 <br/>
-<br/>
-When the player progresses from one stage to the next stage, the player has
-to nagivate the  spaceship  through a group of asteriods by dodging them to
-prevent crashing.
-
 
 <br/>
 
 ## In-game Features
-
-### Spaceships
-There will be three types of spaceship to choose from, each with a different
-special ability.  There will be a  charging bar to track the charging status
-for the special ability.  When the bar is fully charged, the special ability
-can be executed. 
-
-<br/>
-<pre>
-1)	Galaxy Reaper
-&nbsp	Special Ability: Double Damage until end of stage.
-<br/>
-2)	Galaxy Tanker
-&nbsp	Special Ability: Summons a sheild barrier that absorbs a projectile.
-<br/>
-3)	Galaxy Pirates
-&nbsp	Special Ability: Doubles the coins earned from each enemy killed.
-</pre>
-<br/>
 
 ### Weaponry
 
@@ -77,18 +56,14 @@ loot boxes. Below are the list of weapons in-game.
 1)	Single Barrel Machine Gun
 &nbsp	- shoots a bullet at a time. 
 <br/>
-2)	Rapid Machine Gun
-&nbsp	- upgraded version of Single Barrel Machine Gun. Higher fire rate.
-<br/>
-3)	Double Barrel Machine Gun
-&nbsp	- shoots two bullets at a time.
-<br/>
-4)	Plasma Gun
+2)	Plasma Gun
 &nbsp	- shoots an energy pulse that can cause splash damage.
 <br/>
-5)	Laser Gun
-&nbsp	-continuous emission of laser beam that can damages the enemies.
+3)	Laser Gun
+&nbsp	- Fires a laser which destroys all enemies in a single line.
 </pre>
+
+<br/>
 
 ## Features and Code Structure
 
@@ -115,8 +90,8 @@ loot boxes. Below are the list of weapons in-game.
 	  dynamic  arrays  are used to store all enemy ships in every stage
 	  to  reduce  memory  usage. As the player shoots down enemy ships,
 	  the  number  of  enemy  ships  decreases, so does the size of the
-	  array. Queue  structure is  used to store the  information of the
-	  bullets fired, such as the location.
+	  array.  A stack structure is used to store the information of the
+	  bullets fired, such as their locations.
 </pre>
 
 <pre>
@@ -138,6 +113,11 @@ loot boxes. Below are the list of weapons in-game.
 
 <br/>
 
-*Last modified : *
-*Date: April 3, 2020*
-*Time: 1600 HKT
+*Last modified: Zhen Yuen*
+<br/>
+
+*Date: April 11, 2020*
+<br/>
+
+*Time: 0058 HKT*
+<br/>

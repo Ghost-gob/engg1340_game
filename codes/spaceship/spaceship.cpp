@@ -3,13 +3,24 @@
 using namespace std;
 
 
-void Spaceship::load_spaceship()
+void Spaceship::load_spaceship(int n)
 {
     current_gun = 0;
+    n_guns = n;
     x_coor = 0;
-    ship_width = 5;
-    n_guns = 1;
-    available_guns[0].load_gun(0);
+
+    // Load guns into the spaceship;
+    for (int i = 0; i < n_guns; i++)
+    {
+        available_guns[i].load_gun(i);
+    }
+}
+
+
+void Spaceship::new_gun()
+{
+    available_guns[n_guns].load_gun(n_guns);
+    n_guns++;
 }
 
 
@@ -50,142 +61,22 @@ void Spaceship::fill_frame(char ***frame, int frame_height)
     // Move bullet for every turn;
     for (int i = 0; i < n_guns; i++)
     {
-        available_guns[i].move_bullet(frame, frame_height);
-        available_guns[i].display_bullets(frame, frame_height);
-    }
-}
-
-
-    void Spaceship::switch_gun()
-    {
-
-}
-
-
-void Gun::load_gun(int type)
-{
-    if (type == 0)
-    {
-        shape[0] = '/';
-        shape[1] = '|';
-        shape[2] = '\\';
-        head = nullptr;
-        time_charge = 3;
-        time_between_fire = -1;
-        bullet_width = 1;
-        icon = '|';
-    }
-}
-
-
-void Gun::fire(int x_coor)
-{
-    if (time_between_fire == time_charge || time_between_fire == -1)
-    {
-        // Reset time elasped between each fire.
-        time_between_fire = 0;
-
-        // Fire gun.
-        if (head == nullptr)
+        if (i == 0)
         {
-            head = new Bullet;
-            head -> next = nullptr;
-            head -> X = x_coor + 2 - bullet_width / 2;
-            head -> Y = 0;
+            // If current gun type is 0, move bullet.
+            available_guns[i].move_bullet(frame, frame_height);
+            available_guns[i].display_bullets(frame, frame_height);
         }
-        else
+        else if (i == 1)
         {
-            Bullet *currentPtr = head;
-
-            while (currentPtr -> next != nullptr)
-            {
-                currentPtr = currentPtr -> next;
-            }
-
-            currentPtr -> next = new Bullet;
-            currentPtr = currentPtr -> next;
-            currentPtr -> X = x_coor + 2 - bullet_width / 2;
-            currentPtr -> Y = 0;
-            currentPtr -> next = nullptr;
+            available_guns[i].display_laser(frame, frame_height);
         }
     }
 }
 
 
-void Gun::move_bullet(char ***frame, int frame_height)
+void Spaceship::switch_gun()
 {
-    if (time_between_fire != time_charge)
-    {
-        // Increment time between each fire.
-        time_between_fire++;
-    }
-
-    if (head != nullptr)
-    {
-        (head -> Y)++;
-
-        if ((head -> Y) > 32)
-        {
-            pop_bullet();
-        }
-
-        Bullet *currentPtr = head;
-        while (currentPtr != nullptr)
-        {
-            (currentPtr -> Y)++;
-
-            // If the bullet reach the edge of the display, delete bullet.
-            currentPtr = currentPtr -> next;
-        }
-    }
-}
-
-
-void Gun::display_bullets(char ***frame, int frame_height)
-{
-    // Fill display frame with  the bullet fired.
-    if (head != nullptr)
-    {
-        Bullet *currentPtr = head;
-
-        while (currentPtr != nullptr)
-        {
-            int current_pos = frame_height - 2 - (currentPtr -> Y);
-            for (int i = 0; i < bullet_width; i++)
-            {
-                destroy_target(frame, (currentPtr -> X) + i, current_pos, icon);
-            }
-            currentPtr = currentPtr -> next;
-
-        }
-    }
-}
-
-void Gun::pop_bullet()
-{
-    Bullet *tempPtr = head;
-
-    if (head -> next != nullptr)
-    {
-        head = head -> next;
-    }
-    else
-    {
-        head = nullptr;
-    }
-
-    delete tempPtr;
-}
-
-
-void Gun::destroy_target(char ***frame, int x, int y, char icon)
-{
-    if ((*frame)[y][x] != ' ')
-    {
-        (*frame)[y][x] = '*';
-        pop_bullet();
-        return;
-    }
-
-    (*frame)[y][x] = icon;
+    current_gun++;
+    current_gun %= n_guns;
 }

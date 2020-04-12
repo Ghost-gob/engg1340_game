@@ -6,6 +6,7 @@
 #include "spaceship/spaceship.h"
 #include "enemy/enemy.h"
 #include "player.h"
+#include "gun/gun.h"
 using namespace std;
 
 
@@ -23,14 +24,10 @@ int main()
     const int width = 50;
     const int height = 35;
 
-    // Initialize spaceship.
-    Spaceship user_ship;
-    user_ship.load_spaceship();
-
-    //Initiate array for Main Menu illustration.
+    // Initiate array for Main Menu illustration.
     char main_menu[height][width], instructions[height][width];
 
-    //Copy text from text files to arrays.
+    // Copy text from text files to arrays.
     char homepage[] = "homepage.txt", instruction_page[] = "instructions.txt", leaderBoard[] = "leaderboard.txt";
     open_file(homepage, main_menu, height, width);
     open_file(instruction_page, instructions, height, width);
@@ -73,8 +70,7 @@ int main()
                         }
                     }
 
-                    user_ship.move(input, &frame, width);
-                    user_ship.fill_frame(&frame, height);
+                    // Start game.
 
                     updated_map = 1;
                     display(frame, height, width);

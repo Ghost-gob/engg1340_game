@@ -37,7 +37,7 @@ void display(char **frame, int height, int width)
 }
 
 
-void get_player_input(char *input, int *updated_map)
+void get_player_input(char *input)
 {
     while(cin >> *input)
     {

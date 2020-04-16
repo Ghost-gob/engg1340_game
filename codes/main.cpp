@@ -7,6 +7,8 @@
 #include "enemy/enemy.h"
 #include "player.h"
 #include "gun/gun.h"
+#include "invader/invader.h"
+#include "stage/stage.h"
 using namespace std;
 
 
@@ -18,9 +20,13 @@ int main()
     // Use RAW mode for terminal.
     system("stty cbreak");
 
+    // Initialize stage.
+    Stage stage;
+    // Initialize a variable to indicate current game state.
+    int game_state;
+
     char input = '0';
     int position = 0;
-    int updated_map = 0;
     const int width = 50;
     const int height = 35;
 
@@ -40,7 +46,7 @@ int main()
     }
     cout << endl;
 
-    auto control = async(get_player_input, &input, &updated_map);
+    auto control = async(get_player_input, &input);
     cin.clear();
 
     //This is where the main game starts
@@ -59,20 +65,40 @@ int main()
         switch(input)
         {
             case '1':
+                // Start game.
+                game_state = 0;
+                stage.load_stage(4, 3, 2);
+
+                // Set new keybind. 'l' to fire.
+                stage.spaceship.set_key_binds(2, 'l');
+                // Set spaceship HP to 30.
+                stage.spaceship.set_n_hits(30);
+                // Set spaceship reload time for shot gun to 1.
+                stage.spaceship.set_reload_time(1, 1);
+
+                // Set enemy fire limit to 3
+                stage.enemy.set_n_fire_limit(3);
+                // Set type 0 invader hp to 10
+                stage.enemy.set_n_hits(0, 10);
+
                 while (input != 'm')
                 {
-                    // Create empty display frame.
-                    for (int i = 0; i < height; i++)
+                    stage.clear_display_frame(&frame, width, height);
+                    game_state = stage.reload(input, &frame, width, height);
+
+                    if (game_state == 1)
                     {
-                        for (int j = 0; j < width; j++)
-                        {
-                            frame[i][j] = ' ';
-                        }
+                        // LOSE
+                        stage.clear_stage();
+                        break;
+                    }
+                    else if(game_state == -1)
+                    {
+                        // WIN
+                        stage.clear_stage();
+                        break;
                     }
 
-                    // Start game.
-
-                    updated_map = 1;
                     display(frame, height, width);
                     cin.clear();
                     input = '\0';

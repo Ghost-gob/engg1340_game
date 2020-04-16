@@ -1,0 +1,103 @@
+Types of guns:
+
+    0 - Gattling gun.
+    1 - Shot gun.
+    2 - Laser.
+    3 - Shield (temporary invulnerability).
+
+1) To set the reload time for a spaceship gun, call
+
+spaceship.set_reload_time([GUN_TYPE], [TIME]);
+
+
+2) To set the number of frames the laser will last before expiring, call
+
+spaceship.set_frame_elasped_limit(2,[NUMBER]);
+
+
+3) To set the number of frames the shield will last before expiring, call
+
+spaceship.set_frame_elasped_limit(3,[NUMBER]);
+
+
+4) To set HP of spaceship
+
+spaceship.set_n_hits([NUMBER])
+
+
+5) To set keybind for controls
+(Action Types: 0 - left, 1 - right, 2 - fire, 3 - switch gun, 4 - shield)
+
+spaceship.set_key_binds([ACTION], [CHARACTER])
+
+
+------------------------------------------------------------------
+Types of invaders:
+
+    0 - Craft X (low hp, high fire rate)
+    1 - The Wall (high hp, low fire rate)
+    2 - Mirage (Drops mirror that blocks laser)
+
+1) To set the reload time for a invader type, call
+
+enemy.set_reload_time([TYPE], [INT])
+
+
+2) To set HP for a invader type, call
+
+enemy.set_n_hits([TYPE], [INT])
+
+
+3) To set the horizontal speed, call
+
+enemy.set_n_frames_required_to_move_hor(INT])
+
+
+4) To set the vertical speed, call
+
+enemy.set_n_frames_required_to_move_vert([INT])
+
+
+5) To set the fire limit, call
+
+enemy.set_n_fire_limit([INT])
+
+
+6) To set the fire speed, call
+
+enemy.set_n_frames_required_to_fire([INT])
+
+
+---------------------------------------------------------------------
+When starting a stage.
+
+1) Load all objects.
+
+STAGE.load_stage([NUMBER_OF_GUNS], [NUMBER OF INVADER TYPES], [NUMBER OF ROWS OF INVADERS])
+
+
+2) Make adjustments if required.
+
+STAGE.set_n_gun_type([NUMBER_OF_GUNS])
+STAGE.set_n_enemy_type([NUMBER OF INVADER TYPES])
+STAGE.set_n_row_of_invaders([NUMBER OF ROWS OF INVADERS])
+
+
+3) For every frame displayed:
+
+    a) Clear frame
+
+        STAGE.clear_display_frame(&[FRAME], [WIDTH OF FRAME], [HEIGHT OF FRAME])
+
+    b) Reload frame
+
+        STAGE.reload([USER INPUT], &[FRAME], [WIDTH OF FRAME], [HEIGHT OF FRAME])
+
+    c) Check return value of reload() called previously.
+
+        if (0), continue game
+        if (1), player lost
+        if (-1), player won
+
+
+I have left an example code in main.cpp

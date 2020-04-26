@@ -18,8 +18,10 @@ public:
     void update_bullet_position(char ***, int);
     void switch_gun();
     void clear_spaceship();
+    int spaceship_lifepoint();
     int get_x_coor();
     int spaceship_hit(int);
+
 
 private:
     // x and y coordinates of the spaceship

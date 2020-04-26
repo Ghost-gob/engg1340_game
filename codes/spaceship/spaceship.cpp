@@ -285,3 +285,12 @@ int Spaceship::spaceship_hit(int x)
     }
     return 0;
 }
+
+// To return the value of the current lifepoint of space ship.
+//
+// Return:
+// (int) number of n_hits.
+int Spaceship::spaceship_lifepoint()
+{
+    return n_hits;
+}

@@ -11,25 +11,25 @@
 |  |_______|  |___|  |__| |__||_______||_______| |
 |                                                |
 |                   ,-----,--,                   |
-|                    | '-  -\==\                 |
-|                    \,--, '/==/                 |
-|                       /  /==/                  |
-|                      / -/==/                   |
+|                   | '-  -\==\                  |
+|                   \,--, '/==/                  |
+|                      /  /==/                   |
 |                     / -/==/                    |
-|                    / `\==\_,--,                |
-|                   /` -   ,/==/                 |
-|                   `------`--`                  |
-|                                                |
-|                                                |
-|                                                |
+|                    / `/==/                     |
+|                   / -/==/                      |
+|                  / `/==/                       |
+|                  `--`-`                        |
 |                                                |
 |   == Weapon Available: Gattling Gun            |
-|      ++ Gattling Gun - Higher Fire Rate        |
-|   == Initial Health Points: 10                 |
+|                        Shot Gun                |
+|                        Laser                   |
+|   == Initial Health Points: 20                 |
 |   == Enemies: Craft X                          |
-|      ++ More Enemies                           |
+|               The Wall                         |
+|               Mirage                           |
+|      ++ Stronger Enemies                       |
+|   == New Spaceship Equipment: Shield           |
 |                                                |
-|                                                |
-|                                                |
-|                                                |
+|* Reminder: Press ';' to activate shield        |
+|* Reminder: Press 'k' to switch weapon          |
 |* Press 'c' to continue                         |

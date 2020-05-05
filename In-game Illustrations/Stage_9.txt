@@ -1,0 +1,35 @@
+|                                                |
+|                                                |
+|                                                |
+|                                                |
+|   _______  _______  _______  _______  _______  |
+|  |       ||       ||   _   ||       ||       | |
+|  |  _____||_     _||  |_|  ||    ___||    ___| |
+|  | |_____   |   |  |       ||   | __ |   |___  |
+|  |_____  |  |   |  |       ||   ||  ||    ___| |
+|   _____| |  |   |  |   _   ||   |_| ||   |___  |
+|  |_______|  |___|  |__| |__||_______||_______| |
+|                                                |
+|                      _____                     |
+|                     / ___ \                    |
+|                    ( (   ) )                   |
+|                    ( (___) |                   |
+|                     \____  |                   |
+|                          ) |                   |
+|                    /\____) )                   |
+|                    \______/                    |
+|                                                |
+|   == Weapon Available: Gattling Gun            |
+|                        Shot Gun                |
+|                        Laser                   |
+|   == Initial Health Points: 25                 |
+|   == Enemies: Craft X                          |
+|               The Wall                         |
+|               Mirage                           |
+|      ++ Stronger Enemies                       |
+|   == Spaceship Equipment: Shield               |
+|      ++ Shield Elapsed Time Increased          |
+|                                                |
+|* Reminder: Press ';' to activate shield        |
+|* Reminder: Press 'k' to switch weapon          |
+|* Press 'c' to continue                         |

@@ -1,0 +1,35 @@
+|                                                |
+|                                                |
+|                                                |
+|                                                |
+|  _______  _______  __    _  __   __  _______   |
+| |  _    ||       ||  |  | ||  | |  ||       |  |
+| | |_|   ||   _   ||   |_| ||  | |  ||  _____|  |
+| |       ||  | |  ||       ||  |_|  || |_____   |
+| |  _   | |  |_|  ||  _    ||       ||_____  |  |
+| | |_|   ||       || | |   ||       | _____| |  |
+| |_______||_______||_|  |__||_______||_______|  |
+|                                                |
+|   _______  _______  _______  _______  _______  |
+|  |       ||       ||   _   ||       ||       | |
+|  |  _____||_     _||  |_|  ||    ___||    ___| |
+|  | |_____   |   |  |       ||   | __ |   |___  |
+|  |_____  |  |   |  |       ||   ||  ||    ___| |
+|   _____| |  |   |  |   _   ||   |_| ||   |___  |
+|  |_______|  |___|  |__| |__||_______||_______| |
+|                                                |
+|                                                |
+|                                                |
+|   == Weapon Available: Gattling Gun            |
+|                        Shot Gun                |
+|                        Laser                   |
+|   == Initial Health Points: 30                 |
+|   == Enemies: Craft X                          |
+|               The Wall                         |
+|               Mirage                           |
+|   == Spaceship Equipment: Shield               |
+|   == Unlimited waves, enemies get stronger     |
+|      for Subsequent Waves.                     |
+|* Reminder: Press ';' to activate shield        |
+|* Reminder: Press 'k' to switch weapon          |
+|* Press 'c' to continue                         |

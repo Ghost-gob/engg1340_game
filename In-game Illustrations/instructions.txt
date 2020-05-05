@@ -1,0 +1,35 @@
+___________________________________________________
+|          Welcome to Space Invaders 2.0 !        |
+|          -------------------------------        |
+|The aliens have launched an attack on Earth      |
+|to take over our valuable natural resources. As a|
+|space army, you are given the mission to protect |
+|Earth from being invaded by the aliens.          |
+|Are you ready to fight the aliens?               |
+|                                                 |
+|Instructions:                                    |
+|1) Movement                                      |
+| *Use 'a' and 'd' to navigate your spaceship left|
+|  and right.                                     |
+|2) Shoot                                         |
+| *Use 'l' to shoot projectiles to take down your |
+|  enemy.                                         |
+|  *Use 'k' to switch weapons (if applicable)     |
+|3) Shield                                        |
+  *Use ';' to activate shield.                    |
+|4) You will obtain more powerful weapons when you|
+|   successfully proceed to the next level.       |
+|5) Save your game progress by pressing 'S'.      |
+|6) While in-game, press 'm' to go back to main   |
+|   menu.                                         |
+|                                                 |
+|                                                 |
+|                                                 |
+|                                                 |
+|                                                 |
+|                                                 |
+|                                                 |
+|                                                 |
+|                                                 |
+|                                                 |
+|*press 'm' to return to main menu.               |

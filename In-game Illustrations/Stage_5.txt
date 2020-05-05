@@ -10,26 +10,26 @@
 |   _____| |  |   |  |   _   ||   |_| ||   |___  |
 |  |_______|  |___|  |__| |__||_______||_______| |
 |                                                |
-|                   ,-----,--,                   |
-|                    | '-  -\==\                 |
-|                    \,--, '/==/                 |
-|                       /  /==/                  |
-|                      / -/==/                   |
-|                     / -/==/                    |
-|                    / `\==\_,--,                |
-|                   /` -   ,/==/                 |
-|                   `------`--`                  |
-|                                                |
-|                                                |
+|                   .----------.                 |
+|                  /          /                  |
+|                 /   ______.'                   |
+|                /   /_                          |
+|               /      '''--.                    |
+|               '___          `.                 |
+|                   `'.         |                |
+|                      )        |                |
+|              ......-'        /                 |
+|              \          _..'`                  |
+|               '------'''                       |
 |                                                |
 |                                                |
 |   == Weapon Available: Gattling Gun            |
-|      ++ Gattling Gun - Higher Fire Rate        |
-|   == Initial Health Points: 10                 |
+|                        Shot Gun                |
+|                        Laser (*new)            |
+|   == Initial Health Points: 20                 |
 |   == Enemies: Craft X                          |
-|      ++ More Enemies                           |
+|               The Wall                         |
+|               Mirage (*new)                    |
 |                                                |
-|                                                |
-|                                                |
-|                                                |
+|* Reminder: Press 'k' to switch weapon          |
 |* Press 'c' to continue                         |

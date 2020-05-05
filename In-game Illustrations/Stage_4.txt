@@ -10,26 +10,26 @@
 |   _____| |  |   |  |   _   ||   |_| ||   |___  |
 |  |_______|  |___|  |__| |__||_______||_______| |
 |                                                |
-|                   ,-----,--,                   |
-|                    | '-  -\==\                 |
-|                    \,--, '/==/                 |
-|                       /  /==/                  |
-|                      / -/==/                   |
-|                     / -/==/                    |
-|                    / `\==\_,--,                |
-|                   /` -   ,/==/                 |
-|                   `------`--`                  |
+|                       ,--.                     |
+|                      /   |                     |
+|                     / .' |                     |
+|                    / / | |                     |
+|                   / /  | |                     |
+|                  /  `--' |-.                   |
+|                  `-----| |-'                   |
+|                        | |                     |
+|                       (___)                    |
 |                                                |
 |                                                |
 |                                                |
 |                                                |
 |   == Weapon Available: Gattling Gun            |
-|      ++ Gattling Gun - Higher Fire Rate        |
-|   == Initial Health Points: 10                 |
+|                        Shot Gun                |
+|      ++ Shot Gun: Higher fire rate             |
+|   == Initial Health Points: 15                 |
 |   == Enemies: Craft X                          |
+|               The Wall                         |
 |      ++ More Enemies                           |
 |                                                |
-|                                                |
-|                                                |
-|                                                |
+|* Reminder: Press 'k' to switch weapon          |
 |* Press 'c' to continue                         |

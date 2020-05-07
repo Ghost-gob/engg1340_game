@@ -7,6 +7,7 @@ twists and features.
 Space Invaders (Japanese: スペースインベーダー, Hepburn: Supēsu Inbēdā)
 is a 1978 arcade game created by Tomohiro Nishikado (Wikipedia, 2020).
 <br/>
+<br/>
 
 ## Contributers
 
@@ -37,6 +38,9 @@ harder  by  the  increasing  number  of enemy ships and types.
 The player's performance  will be  evaluated  based on the  time  spent in 
 clearing the 10  stages  in  "Story Mode". The  in-game  leaderboard  will
 display the top 5 high scores.
+
+Here is a short clip of the gameplay on YouTube:
+https://www.youtube.com/watch?v=dEybnJ5xhr0&t=116s
 <br/>
 <br/>
 

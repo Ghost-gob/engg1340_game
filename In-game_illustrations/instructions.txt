@@ -1,11 +1,7 @@
 ___________________________________________________
-|          Welcome to Space Invaders 2.0 !        |
-|          -------------------------------        |
-|The aliens have launched an attack on Earth      |
-|to take over our valuable natural resources. As a|
-|space army, you are given the mission to protect |
-|Earth from being invaded by the aliens.          |
-|Are you ready to fight the aliens?               |
+|         Welcome to Space Invaders 2.0 !         |
+|         -------------------------------         |
+|                                                 |
 |                                                 |
 |Instructions:                                    |
 |1) Movement                                      |
@@ -22,6 +18,10 @@ ___________________________________________________
 |5) Save your game progress by pressing 'S'.      |
 |6) While in-game, press 'm' to go back to main   |
 |   menu.                                         |
+|                                                 |
+|                                                 |
+|                                                 |
+|                                                 |
 |                                                 |
 |                                                 |
 |                                                 |

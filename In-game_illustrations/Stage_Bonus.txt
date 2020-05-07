@@ -29,7 +29,7 @@
 |               Mirage                           |
 |   == Spaceship Equipment: Shield               |
 |   == Unlimited waves, enemies get stronger     |
-|      for Subsequent Waves.                     |
+|      for subsequent Waves.                     |
 |* Reminder: Press ';' to activate shield        |
 |* Reminder: Press 'k' to switch weapon          |
 |* Press 'c' to continue                         |

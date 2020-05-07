@@ -25,11 +25,13 @@
 |                (____) () \___/                 |
 |       __________________________________       |
 |      | Main Menu:                       |      |
-|      | 1) New Game                      |      |
-|      | 2) BONUS (Locked)                |      |
+|      | 1) Story Mode (New Game/Continue)|      |
+|      | 2) BONUS (Unlocked)              |      |
 |      | 3) Load Saved Game               |      |
 |      | 4) Instructions                  |      |
 |      | 5) LeaderBoard                   |      |
+|      |    (Time taken to complete story |      |
+|      |     mode)                        |      |
 |      | 6) Quit                          |      |
 |      |                                  |      |
 |      |__________________________________|      |

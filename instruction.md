@@ -10,7 +10,7 @@
 5) ';' to activate shield.
 6) 'm' to return to main menu while in the middle of a game.
    (Your in-game progress will not be reset.)
-<pre/>
+</pre>
 
 <br/>
 <br/>
@@ -26,7 +26,7 @@
 6) While quitting the game, players will be asked to input their names for saving 
    game data.
 7) Players should only key in ONE word for the name they wish to save.
-<pre/>
+</pre>
 
 <br/>
 

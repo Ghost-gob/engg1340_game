@@ -20,6 +20,7 @@ struct Player_details
     int storymode_level;
     int storymode_timespent;
     bool bonusmode_status;
+    bool story_mode_status;
 };
 
 int main()
@@ -55,6 +56,8 @@ int main()
     // Initialize a variable to check if game should proceeds to next level.
     bool next_level = false;
     // Variable to check if the "Story Mode" has been finished.
+    bool Story_mode_finished;
+    // Variable to check if the "Bonus Mode" has been unlocked.
     bool Bonus_mode_unlocked = false;
 
     char input = '0';
@@ -104,7 +107,7 @@ int main()
             {
                 savefile[number_of_saved_players][j] = (name.c_str())[j];
             }
-            fin >> players_gamestatus_array[number_of_saved_players].storymode_level >>  players_gamestatus_array[number_of_saved_players].storymode_timespent >> players_gamestatus_array[number_of_saved_players].bonusmode_status;
+            fin >> players_gamestatus_array[number_of_saved_players].storymode_level >>  players_gamestatus_array[number_of_saved_players].storymode_timespent >> players_gamestatus_array[number_of_saved_players].bonusmode_status >> players_gamestatus_array[number_of_saved_players].story_mode_status;
             number_of_saved_players++;
         }
     }
@@ -130,6 +133,7 @@ int main()
                 swap(players_gamestatus_array[j].player_name, players_gamestatus_array[j+1].player_name);
                 swap(players_gamestatus_array[j].storymode_level, players_gamestatus_array[j+1].storymode_level);
                 swap(players_gamestatus_array[j].bonusmode_status, players_gamestatus_array[j+1].bonusmode_status);
+                swap(players_gamestatus_array[j].story_mode_status, players_gamestatus_array[j+1].story_mode_status);
             }
         }
     }
@@ -150,7 +154,7 @@ int main()
     while(number_of_players_printed < 5 && j < number_of_saved_players)
     {
         // Only consider players that finished 10 levels in bonus mode.
-        if(players_gamestatus_array[j].bonusmode_status == 1)
+        if(players_gamestatus_array[j].story_mode_status == 1)
         {
             //Print top scorer's Name and Time Spent.
             int starting_index = 0;
@@ -275,7 +279,7 @@ int main()
         // There is a game in progress.
         else
         {
-            next_level = false;as 1 0 0
+            next_level = false;
             input = '1';
         }
         //Selection on Main Menu
@@ -298,6 +302,7 @@ int main()
             if(stage_count_story_mode == 1)
             {
                     number_of_frames_record = 0;
+                    Story_mode_finished = false;
                     // Settings for Stage 1
                     //
                     // One basic gattling gun, 1 type of enemy, 2 rows of enemy
@@ -692,6 +697,7 @@ int main()
                     {
                         stage_count_story_mode = 1;
                         Bonus_mode_unlocked = true;
+                        Story_mode_finished = true;
                         while(input != 'm')
                         {
                             pages_fill_frame(&frame, story_mode_completed, height, width);
@@ -865,6 +871,7 @@ int main()
                     stage_count_story_mode = players_gamestatus_array[i].storymode_level;
                     Bonus_mode_unlocked = players_gamestatus_array[i].bonusmode_status;
                     number_of_frames_record = players_gamestatus_array[i].storymode_timespent;
+                    Story_mode_finished = players_gamestatus_array[i].story_mode_status;
                     cout << endl << "Username found. Press ENTER to return to main menu." << endl;
                     getline(cin, proceed);
                 }
@@ -925,31 +932,47 @@ int main()
     cout << "Please type your name and press enter!" << endl;
     cin >> user_name;
     // Check if the current player has saved any game status beforehand.
-    for(int i = 0; i < number_of_saved_players; i++)
+    // Check if the current player has saved any game status beforehand.
+    if(number_of_saved_players == 0)
     {
-        // Overwrite Current Game Data.
-        if(players_gamestatus_array[i].player_name == user_name)
+        players_gamestatus_array[number_of_saved_players].player_name = user_name;
+        players_gamestatus_array[number_of_saved_players].storymode_level = stage_count_story_mode;
+        players_gamestatus_array[number_of_saved_players].storymode_timespent = number_of_frames_record;
+        players_gamestatus_array[number_of_saved_players].bonusmode_status = Bonus_mode_unlocked;
+        players_gamestatus_array[number_of_saved_players].story_mode_status = Story_mode_finished;
+        number_of_players_to_save = number_of_saved_players + 1;
+    }
+    else
+    {
+        for(int i = 0; i < number_of_saved_players; i++)
         {
-            players_gamestatus_array[i].storymode_level = stage_count_story_mode;
-            players_gamestatus_array[i].storymode_timespent = number_of_frames_record;
-            players_gamestatus_array[i].bonusmode_status = Bonus_mode_unlocked;
-            number_of_players_to_save = number_of_saved_players;
-            break;
-        }
-        // Add a new player to the players_gamestatus_array
-        else
-        {
-            players_gamestatus_array[number_of_saved_players].player_name = user_name;
-            players_gamestatus_array[number_of_saved_players].storymode_level = stage_count_story_mode;
-            players_gamestatus_array[number_of_saved_players].storymode_timespent = number_of_frames_record;
-            players_gamestatus_array[number_of_saved_players].bonusmode_status = Bonus_mode_unlocked;
-            number_of_players_to_save = number_of_saved_players + 1;
+            // Overwrite Current Game Data.
+            if(players_gamestatus_array[i].player_name == user_name)
+            {
+                players_gamestatus_array[i].storymode_level = stage_count_story_mode;
+                players_gamestatus_array[i].storymode_timespent = number_of_frames_record;
+                players_gamestatus_array[i].bonusmode_status = Bonus_mode_unlocked;
+                players_gamestatus_array[i].story_mode_status = Story_mode_finished;
+                number_of_players_to_save = number_of_saved_players;
+                break;
+            }
+            // Add a new player to the players_gamestatus_array
+            else
+            {
+                players_gamestatus_array[number_of_saved_players].player_name = user_name;
+                players_gamestatus_array[number_of_saved_players].storymode_level = stage_count_story_mode;
+                players_gamestatus_array[number_of_saved_players].storymode_timespent = number_of_frames_record;
+                players_gamestatus_array[number_of_saved_players].bonusmode_status = Bonus_mode_unlocked;
+                players_gamestatus_array[number_of_saved_players].story_mode_status = Story_mode_finished;
+                number_of_players_to_save = number_of_saved_players + 1;
+            }
         }
     }
 
+
     for(int j = 0; j < number_of_players_to_save; ++j)
     {
-        fout << players_gamestatus_array[j].player_name << " " << players_gamestatus_array[j].storymode_level << " " << players_gamestatus_array[j].storymode_timespent << " " << players_gamestatus_array[j].bonusmode_status << endl;
+        fout << players_gamestatus_array[j].player_name << " " << players_gamestatus_array[j].storymode_level << " " << players_gamestatus_array[j].storymode_timespent << " " << players_gamestatus_array[j].bonusmode_status << " " << players_gamestatus_array[j].story_mode_status << endl;
     }
     fout.close();
 

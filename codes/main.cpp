@@ -124,11 +124,11 @@ int main()
     string bottomline_2 = "If name unavailable, type any key and press enter.";
     string bottomline_3 = "to return to main menu.                           ";
     // Insert bottomline_1
-    for(int i = 0; i < 40; ++i)
+    for(int i = 0; i < 50; ++i)
     {
-        savefile[33][i] = (bottomline_1.cstr())[i];
-        savefile[34][i] = (bottomline_2.cstr())[i];
-        savefile[35][i] = (bottomline_3.cstr())[i];
+        savefile[32][i] = (bottomline_1.c_str())[i];
+        savefile[33][i] = (bottomline_2.c_str())[i];
+        savefile[34][i] = (bottomline_3.c_str())[i];
     }
     // READ SAVED FILE (END)
 
@@ -867,8 +867,6 @@ int main()
             // Prompts User to type his name.
             pages_fill_frame(&frame, savefile, height, width);
             display(frame, height, width);
-            cout << "Please type in your name and press enter!" << endl;
-            cout << "If name unavailable,type any key and press ENTER to return to main menu." << endl;
             getline(cin, name);
             name = input + name;
 

@@ -83,8 +83,6 @@ Below are the list of weapons in-game.
 &nbsp	- Generates a temporary shield to block all incoming fire.
 </pre>
 
-<br/>
-
 ### Different Enemies
 
 As the player progress through the game, new enemies types will be introduced (up to 3 types).
@@ -151,10 +149,7 @@ This section covers only a few examples of the codes elements in the game. Feel 
 	  when developing the game.
 </pre>
 
-<br/>
-
 #### Refer to instruction.md for more details
-
 <br/>
 
 ### References

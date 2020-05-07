@@ -152,6 +152,8 @@ This section covers only a few examples of the codes elements in the game. Feel 
 </pre>
 
 <br/>
+### * Refer to instruction.md for more details *
+<br/>
 
 ### References
 <pre>

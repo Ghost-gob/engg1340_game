@@ -153,6 +153,18 @@ This section covers only a few examples of the codes elements in the game. Feel 
 
 <br/>
 
+### References
+<pre>
+1) Mrigendra Singh, "C++ Program to print current Day, Date and Time"
+   Link: https://www.geeksforgeeks.org/c-program-print-current-day-date-time/
+2) Patorjk.com, "Text to ASCII Art Generator (TAAG)"
+   Link: http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
+3) Tomohiro Nishikado, "Space Invader" 
+   Link: https://en.wikipedia.org/wiki/Space_Invaders
+</pre>
+
+<br/>
+
 *Last modified: Jian Wei*
 <br/>
 

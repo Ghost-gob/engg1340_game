@@ -7,7 +7,6 @@ twists and features.
 Space Invaders (Japanese: スペースインベーダー, Hepburn: Supēsu Inbēdā)
 is a 1978 arcade game created by Tomohiro Nishikado (Wikipedia, 2020).
 <br/>
-<br/>
 
 ## Contributers
 
@@ -20,8 +19,6 @@ is a 1978 arcade game created by Tomohiro Nishikado (Wikipedia, 2020).
 &nbsp 	UID	: 3035718278
 &nbsp 	Study	: Year 1 Engineering
 </pre>
-
-<br/>
 <br/>
 
 ## Game Description
@@ -40,7 +37,6 @@ The player's performance  will be  evaluated  based on the  time  spent in
 clearing the 10  stages  in  "Story Mode". The  in-game  leaderboard  will
 display the top 5 high scores.
 <br/>
-<br/>
 
 ## Installation Process
 
@@ -56,27 +52,26 @@ Once the installation process is complete, the game will automatically open in a
 
 *NOTE : Since the game opens in a new terminal, running the game on the academy server remotely through applications such as PuTTy is not allowed as the connection would refuse to open a new terminal window. Hence, connecting to the academy server using the x2Go client is necessary.*
 <br/>
-<br/>
 
 ## In-game Key Features
 
 ### Bonus round
 
-When the user completes the first 10 stages, he/she will unlock the bonus game mode whereby the user can clear unlimited stages. All the gun and enemy types will be available in "Bonus Mode". 
+When the user completes the first 10 stages, he/she will unlock the bonus game mode whereby the user can clear unlimited stages. All the guns and enemy types will be available in "Bonus Mode". 
 <br/>
 
 ### Different Weapons
 
-As the player progress through the game, more weapons can be unlocked (up to 3 types).
+As the player progress through the game, more weapons can be unlocked (up to 4 types).
 Below are the list of weapons in-game.
 <br/>
 
 <pre>
 1)	Gattling Gun
-&nbsp	- shoots a bullet at a time.
+&nbsp	- Shoots a bullet at a time.
 <br/>
 2)	Shot gun
-&nbsp	- shoots a wide bullet with multiple hitboxes.
+&nbsp	- Shoots a wide bullet with multiple hitboxes.
 <br/>
 3)	Laser Gun
 &nbsp	- Fires a laser which destroys all enemies in a single line.

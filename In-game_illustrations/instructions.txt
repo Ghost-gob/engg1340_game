@@ -13,23 +13,23 @@ ___________________________________________________
 |  *Use ';' to activate shield.                   |
 |4) You will obtain more powerful weapons when you|
 |   successfully proceed to the next level.       |
-|5) Game progress will be saved when you quit.    |
-|6) While in-game, press 'm' to go back to main   |
-|   menu.                                         |
-|                                                 |
-|                                                 |
-|                                                 |
-|                                                 |
-|                                                 |
-|                                                 |
-|                                                 |
-|                                                 |
-|                                                 |
-|                                                 |
-|                                                 |
-|                                                 |
-|                                                 |
-|                                                 |
-|                                                 |
+|5) While in-game, press 'm' to go back to main   |
+|   menu, you will still stay on the same stage.  |
+|6) Complete the 10 stages in "Story Mode" as fast|
+|   as possible to get onto the LeaderBoard.      |
+|7) Top 5 players with the shortest time spent    |
+|   will be displayed.                            |
+|8) "Bonus Mode" will be unlocked if "Story Mode" |
+|   is completed.                                 |
+|9) Game progress will be saved when you quit.    |                                 
+|   Type in your name with only ONE word.         |
+| GUNS:                                           |
+| 1) Gattling Gun /|\ - Single Projectile         |
+| 2) Shot Gun     ^^^ - Triple Projectiles        |
+| 3) Laser Gun    /v\ - Continuous Damage         |
+| ENEMIES:                                        |
+| 1) X-Craft [XXX] - Low HP, High Fire Rate.      |
+| 2) The Wall[---] - High HP, Low Fire Rate.      |
+| 3) Mirage  [TTT] - Blocks Laser Attack          |
 |                                                 |
 |*press 'm' to return to main menu.               |

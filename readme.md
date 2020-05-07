@@ -48,11 +48,13 @@ Clone the repository into an empty directory. In order to run the game,
 execute the bash script *si_2.sh* using the command:
 
 <pre>
-*chmod u=rwx si_2.sh*
+chmod u=rwx si_2.sh
 ./si_2.sh
 </pre>
 
 Once the installation process is complete, the game will automatically open in a new terminal.
+
+*NOTE : Since the game opens in a new terminal, running the game on the academy server remotely through applications such as PuTTy is not allowed as the connection would refuse to open a new terminal window. Hence, connecting to the academy server using the x2Go client is necessary.*
 <br/>
 <br/>
 
@@ -169,11 +171,11 @@ This section covers only a few examples of the codes elements in the game. Feel 
 
 <br/>
 
-*Last modified: Jian Wei*
+*Last modified: Zhen Yuen*
 <br/>
 
 *Date: May 7, 2020*
 <br/>
 
-*Time: 1800 HKT*
+*Time: 2100 HKT*
 <br/>

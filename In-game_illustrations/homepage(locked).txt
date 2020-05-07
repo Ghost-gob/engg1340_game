@@ -29,9 +29,7 @@
 |      | 2) BONUS (Locked)                |      |
 |      | 3) Load Saved Game               |      |
 |      | 4) Instructions                  |      |
-|      | 5) LeaderBoard                   |      |
-|      |    (Time taken to complete story |      |
-|      |     mode)                        |      |
+|      | 5) LeaderBoard                   |      |         
 |      | 6) Quit                          |      |
 |      |                                  |      |
 |      |__________________________________|      |

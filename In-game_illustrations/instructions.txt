@@ -1,8 +1,6 @@
 ___________________________________________________
 |         Welcome to Space Invaders 2.0 !         |
 |         -------------------------------         |
-|                                                 |
-|                                                 |
 |Instructions:                                    |
 |1) Movement                                      |
 | *Use 'a' and 'd' to navigate your spaceship left|
@@ -12,12 +10,14 @@ ___________________________________________________
 |  enemy.                                         |
 |  *Use 'k' to switch weapons (if applicable)     |
 |3) Shield                                        |
-  *Use ';' to activate shield.                    |
+|  *Use ';' to activate shield.                   |
 |4) You will obtain more powerful weapons when you|
 |   successfully proceed to the next level.       |
-|5) Save your game progress by pressing 'S'.      |
+|5) Game progress will be saved when you quit.    |
 |6) While in-game, press 'm' to go back to main   |
 |   menu.                                         |
+|                                                 |
+|                                                 |
 |                                                 |
 |                                                 |
 |                                                 |

@@ -12,6 +12,9 @@
    (Your in-game progress will not be reset.)
 <pre/>
 
+<br/>
+<br/>
+
 ## Game Flow Details
 <pre>
 1) "Story Mode" has 10 levels, complete it to unlock "Bonus Mode".
@@ -24,6 +27,8 @@
    game data.
 7) Players should only key in ONE word for the name they wish to save.
 <pre/>
+
+<br/>
 
 ### * Note to teaching team *
 We have prepared a player data named "Admin" for convenience. Press '3' to choose "Load Saved Game".

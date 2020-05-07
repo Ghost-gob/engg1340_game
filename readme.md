@@ -19,6 +19,7 @@ is a 1978 arcade game created by Tomohiro Nishikado (Wikipedia, 2020).
 &nbsp 	UID	: 3035718278
 &nbsp 	Study	: Year 1 Engineering
 </pre>
+
 <br/>
 
 ## Game Description
@@ -37,6 +38,7 @@ The player's performance  will be  evaluated  based on the  time  spent in
 clearing the 10  stages  in  "Story Mode". The  in-game  leaderboard  will
 display the top 5 high scores.
 <br/>
+<br/>
 
 ## Installation Process
 
@@ -51,6 +53,7 @@ chmod u=rwx si_2.sh
 Once the installation process is complete, the game will automatically open in a new terminal.
 
 *NOTE : Since the game opens in a new terminal, running the game on the academy server remotely through applications such as PuTTy is not allowed as the connection would refuse to open a new terminal window. Hence, connecting to the academy server using the x2Go client is necessary.*
+<br/>
 <br/>
 
 ## In-game Key Features

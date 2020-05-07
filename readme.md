@@ -31,14 +31,14 @@ control  of  a spaceship and shoot down invading enemy ships using a myriad
 of  weapons.  The spaceship moves horizontally at the bottom of the screen,
 and  must stop the invading enemy ships from reaching the bottom row. Enemy
 ships are able to fire projectiles at random, and the player must avoid all
-projectiles.  The  player  is only given 10 lives to clear as many stages as
-he/she can.
+projectiles.
 <br/>
 <br/>
 As  the  player  progresses through the game, each stage gets progressively
-harder  by  the  increasing  number  of enemy ships and types. The player's  
-performance  will be evaluated based on the time spent and number of stages  
-cleared. The in-game leaderboard will display the top 5 high scores.
+harder  by  the  increasing  number  of enemy ships and types. 
+The player's performance  will be  evaluated  based on the  time  spent in 
+clearing the 10  stages  in  "Story Mode". The  in-game  leaderboard  will
+display the top 5 high scores.
 <br/>
 <br/>
 
@@ -60,7 +60,7 @@ Once the installation process is complete, the game will automatically open in a
 
 ### Bonus round
 
-When the user completes the first 10 stages, he/she will unlock the bonus game mode whereby the user can clear unlimited stages.
+When the user completes the first 10 stages, he/she will unlock the bonus game mode whereby the user can clear unlimited stages. All the gun and enemy types will be available in "Bonus Mode". 
 <br/>
 
 ### Different Weapons
@@ -70,7 +70,7 @@ Below are the list of weapons in-game.
 <br/>
 
 <pre>
-1)	Single Barrel Machine Gun
+1)	Gattling Gun
 &nbsp	- shoots a bullet at a time.
 <br/>
 2)	Shot gun
@@ -138,8 +138,8 @@ This section covers only a few examples of the codes elements in the game. Feel 
 	  current  progress  of  the  user  into a text file in the *saves*
 	  directory.   Whenever  the  user  reopens  the game,  he/she  can  
 	  continue  from  the  current  stage.  All  information  including   
-	  the  top  5 scores displayed in the leaderboard will be stored in
-	  a text file.
+	  the  in-game illustrations are stored as text files  and imported
+	  when the game program starts. 
 </pre>
 
 <pre>
@@ -153,11 +153,11 @@ This section covers only a few examples of the codes elements in the game. Feel 
 
 <br/>
 
-*Last modified: Zhen Yuen*
+*Last modified: Jian Wei*
 <br/>
 
 *Date: May 7, 2020*
 <br/>
 
-*Time: 1600 HKT*
+*Time: 1800 HKT*
 <br/>

@@ -1,5 +1,0 @@
-hi 1 0 0
-Hi 1 410 0
-Kingston 1 900 1
-Jennie 9 1000 0
-Yuna 10 1300 0

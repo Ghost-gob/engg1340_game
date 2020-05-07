@@ -37,13 +37,22 @@ void display(char **frame, int height, int width)
 }
 
 
-void get_player_input(char *input)
+void get_player_input(char *input, int * key_in)
 {
-    while(cin >> *input)
+    cin >> *input;
+    while(1)
     {
-        if (*input == '6')
+        if (*key_in == 1)
         {
-            break;
+            continue;
+        }
+        else
+        {
+            if (*input == '6')
+            {
+                break;
+            }
+            cin >> *input;
         }
     }
 }
@@ -59,6 +68,9 @@ void pages_fill_frame(char ***frame, char text_file[][50], int height, int width
         }
     }
 }
+
+// To open the file for illustrations and load it into the 2D array.
+// Input parameters: filename of illustrations, the 2D array, height and width of array.
 
 void open_file(char filename[], char array[][50], int height, int width)
 {

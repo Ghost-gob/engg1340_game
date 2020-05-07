@@ -33,6 +33,10 @@ int main()
     time (&timevariable);
     current_time = localtime(&timevariable);
 
+    // Open new terminal window with specified dimensions.
+    system("resize -s 39 52");
+    system("stty rows 39");
+    system("stty columns 52");
     // Supress echo for terminal.
     system("stty -echo");
 
@@ -79,7 +83,10 @@ int main()
     fin.open(savefile_file);
     if(fin.fail())
     {
-        cout << "Unable to open file" << endl;
+        cout << "Unable to open file." << endl;
+        // Reset terminal settings
+        system("stty echo");
+        system("stty -cbreak");
         exit(1);
     }
     else
@@ -101,6 +108,7 @@ int main()
             number_of_saved_players++;
         }
     }
+
     for(int i = number_of_saved_players; i < height; ++i)
     {
         for(int j = 0; j < width; ++j)
@@ -190,7 +198,9 @@ int main()
     char story_mode_completed[height][width];
 
     // Store file name that store the illustrations into arrays (For Mainpages)
-    char homepage_locked[] = "../In-game_illustrations/homepage(locked).txt", homepage_unlocked[] = "../In-game_illustrations/homepage(unlocked).txt", instruction_page[] = "../In-game_illustrations/instructions.txt";
+    char homepage_locked[] = "../In-game_illustrations/homepage(locked).txt";
+    char homepage_unlocked[] = "../In-game_illustrations/homepage(unlocked).txt";
+    char instruction_page[] = "../In-game_illustrations/instructions.txt";
     // Store file name that store the illustrations as c-string (For pages relating to stages information)
     char stage_1_file[] = "../In-game_illustrations/Stage_1.txt";
     char stage_2_file[] = "../In-game_illustrations/Stage_2.txt";
@@ -265,7 +275,7 @@ int main()
         // There is a game in progress.
         else
         {
-            next_level = false;
+            next_level = false;as 1 0 0
             input = '1';
         }
         //Selection on Main Menu
@@ -482,7 +492,7 @@ int main()
                     usleep(75000);
                 }
             }
-            // Stage 7
+            // Stage 7        cout << "HI" << endl;
             else if(stage_count_story_mode == 7)
             {
                 // Gattling gun, Shot gun and laser. 3 types of enemy, 7 rows of enemy. Shield is available.
@@ -629,6 +639,7 @@ int main()
                 stage.clear_display_frame(&frame, width, height);
                 game_state = stage.reload(input, &frame, width, height);
                 number_of_frames_record++;
+
                 display(frame, height, width);
                 if (game_state == 1)
                 {
@@ -659,7 +670,7 @@ int main()
                     number_of_frames_record = 0;
                     break;
                 }
-                else if(game_state == -1)
+                else if(game_state == -1)//
                 {
                     // WIN
                     stage.clear_stage();
@@ -841,17 +852,21 @@ int main()
             pages_fill_frame(&frame, savefile, height, width);
             display(frame, height, width);
             cout << "Please type in your name and press enter!" << endl;
-            cout << "If name unavailable,type any key and press enter to return to main menu." << endl;
+            cout << "If name unavailable,type any key and press ENTER to return to main menu." << endl;
             getline(cin, name);
             name = input + name;
+
             //Check the players_gamestatus_array for the name of player entered.
             for(int i = 0; i < number_of_saved_players; i++)
             {
                 if(players_gamestatus_array[i].player_name == name)
                 {
+                    string proceed;
                     stage_count_story_mode = players_gamestatus_array[i].storymode_level;
                     Bonus_mode_unlocked = players_gamestatus_array[i].bonusmode_status;
                     number_of_frames_record = players_gamestatus_array[i].storymode_timespent;
+                    cout << endl << "Username found. Press ENTER to return to main menu." << endl;
+                    getline(cin, proceed);
                 }
             }
             key_in = 0;
@@ -894,7 +909,10 @@ int main()
     fout.open(savefile_file);
     if(fout.fail())
     {
-        cout << "Error in file opening" << endl;
+        cout << "Error in file opening." << endl;
+        // Reset terminal settings
+        system("stty echo");
+        system("stty -cbreak");
         exit(1);
     }
     // Reset terminal settings

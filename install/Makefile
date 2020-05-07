@@ -25,7 +25,7 @@ stage.o: $(STAGE) $(ENEMY) $(SPACESHIP)
 functions.o: $(FUNCTIONS)
 	g++ $(FLAGS) -c ../codes/functions/functions.cpp
 
-main.o: ../codes/main.cpp ../codes/player.h $(FUNCTIONS) $(ENEMY) $(FUNCTIONS) $(GUN) $(INVADER) $(STAGE)
+main.o: ../codes/main.cpp ../codes/player.h $(SPACESHIP) $(ENEMY) $(FUNCTIONS) $(GUN) $(INVADER) $(STAGE)
 	g++ $(FLAGS) -c $<
 
 si_2: main.o functions.o spaceship.o enemy.o gun.o invader.o stage.o

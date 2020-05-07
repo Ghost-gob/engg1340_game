@@ -71,7 +71,6 @@ void pages_fill_frame(char ***frame, char text_file[][50], int height, int width
 
 // To open the file for illustrations and load it into the 2D array.
 // Input parameters: filename of illustrations, the 2D array, height and width of array.
-
 void open_file(char filename[], char array[][50], int height, int width)
 {
     ifstream object_name;
@@ -80,7 +79,10 @@ void open_file(char filename[], char array[][50], int height, int width)
     object_name.open(filename);
     if(object_name.fail())
     {
-        cout << "Unable to open file" << endl;
+        cout << "Unable to open file." << endl;
+        // Reset terminal settings
+        system("stty echo");
+        system("stty -cbreak");
         exit(1);
     }
     else

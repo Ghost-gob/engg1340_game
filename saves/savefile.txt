@@ -1,1 +1,3 @@
-
+Jennie 9 1000 0
+Kingston 1 900 1
+Yuna 10 1300 0

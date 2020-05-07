@@ -120,6 +120,16 @@ int main()
         }
     }
     fin.close();
+    string bottomline_1 = "Please insert your name and press enter.          ";
+    string bottomline_2 = "If name unavailable, type any key and press enter.";
+    string bottomline_3 = "to return to main menu.                           ";
+    // Insert bottomline_1
+    for(int i = 0; i < 40; ++i)
+    {
+        savefile[33][i] = (bottomline_1.cstr())[i];
+        savefile[34][i] = (bottomline_2.cstr())[i];
+        savefile[35][i] = (bottomline_3.cstr())[i];
+    }
     // READ SAVED FILE (END)
 
     // Sorting the players_gamestatus_array based on the number_of_frames_record (ascending order).

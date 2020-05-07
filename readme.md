@@ -61,6 +61,7 @@ Once the installation process is complete, the game will automatically open in a
 ### Bonus round
 
 When the user completes the first 10 stages, he/she will unlock the bonus game mode whereby the user can clear unlimited stages.
+<br/>
 
 ### Different Weapons
 

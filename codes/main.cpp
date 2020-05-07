@@ -719,7 +719,7 @@ int main()
                     }
                     break;
                 }
-                cout << "| Life Points: " << stage.spaceship.spaceship_lifepoint() << "| Current Level: " << stage_count_story_mode << "|Time Spent: " << number_of_frames_record/12 << "|" << endl;
+                cout << "|Life Points: " << stage.spaceship.spaceship_lifepoint() << "|Current Level: " << stage_count_story_mode << "|Time Spent: " << number_of_frames_record/12 << "|" << endl;
                 cin.clear();
                 input = '\0';
                 usleep(75000);

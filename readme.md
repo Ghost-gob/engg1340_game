@@ -49,7 +49,7 @@ execute the bash script *si_2.sh* using the command:
 
 <pre>
 *chmod u=rwx si_2.sh*
-*./si_2.sh*
+./si_2.sh
 </pre>
 
 Once the installation process is complete, the game will automatically open in a new terminal.

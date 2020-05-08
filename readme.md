@@ -56,7 +56,6 @@ chmod u=rwx si_2.sh
 
 Once the installation process is complete, the game will automatically open in a new terminal.
 
-*NOTE : Since the game opens in a new terminal, running the game on the academy server remotely through applications such as PuTTy is not allowed as the connection would refuse to open a new terminal window. Hence, connecting to the academy server using the x2Go client is necessary.*
 <br/>
 <br/>
 

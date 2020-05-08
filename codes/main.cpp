@@ -34,10 +34,6 @@ int main()
     time (&timevariable);
     current_time = localtime(&timevariable);
 
-    // Open new terminal window with specified dimensions.
-    system("resize -s 39 52");
-    system("stty rows 39");
-    system("stty columns 52");
     // Supress echo for terminal.
     system("stty -echo");
 

@@ -12,7 +12,7 @@ then
   cat install_log.txt
   echo ''
   read -p "Press ENTER to continue..." pause
-  gnome-terminal -e ./si_2
+
 else
   echo "Installation failed. Please check install log."
   echo ''

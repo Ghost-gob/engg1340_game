@@ -54,7 +54,7 @@ chmod u=rwx si_2.sh
 ./si_2.sh
 </pre>
 
-Once the installation process is complete, the game will automatically open in a new terminal.
+Once the installation process is complete, the game will automatically run. When the game opens, the terminal window should automatically adjust to a size of *39 rows and 50 columns* for an optimal game experience. However due to certain security restriction, cases may arise whereby the terminal would not resize automatically. If this happens, do resize the terminal manually. Thanks and sorry for any inconvenience caused.
 
 <br/>
 <br/>

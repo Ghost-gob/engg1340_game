@@ -23,9 +23,11 @@
 4) For players that had completed "Story Mode" but wish to improve their rankings can 
    replay "Story Mode". Their time spent will be reset to zero.
 5) Players can load their previously saved game data and continue with their progress.
-6) While quitting the game, players will be asked to input their names for saving 
+6) In "Bonus Mode", there will be only 30 hp given to play unlimited stage. Challenge
+   yourself to complete as many levels as possible!
+7) While quitting the game, players will be asked to input their names for saving 
    game data.
-7) Players should only key in ONE word for the name they wish to save.
+8) Players should only key in ONE word for the name they wish to save.
 </pre>
 
 <br/>
@@ -40,8 +42,8 @@ is unlocked to allow the teaching team to get access to all the features in our 
 *Last modified: Jian Wei*
 <br/>
 
-*Date: May 7, 2020*
+*Date: May 9, 2020*
 <br/>
 
-*Time: 1839 HKT*
+*Time: 1833 HKT*
 <br/>

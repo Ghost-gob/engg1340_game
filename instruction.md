@@ -23,8 +23,8 @@
 4) For players that had completed "Story Mode" but wish to improve their rankings can 
    replay "Story Mode". Their time spent will be reset to zero.
 5) Players can load their previously saved game data and continue with their progress.
-6) In "Bonus Mode", there will be only 30 hp given to play unlimited stage. Challenge
-   yourself to complete as many levels as possible!
+6) In "Bonus Mode", there will only be 30 hp given to play unlimited stages. Challenge
+   yourself to complete as many levels as possible! Enemies will get stronger!
 7) While quitting the game, players will be asked to input their names for saving 
    game data.
 8) Players should only key in ONE word for the name they wish to save.
